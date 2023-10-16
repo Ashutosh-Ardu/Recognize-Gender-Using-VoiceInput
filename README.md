@@ -16,7 +16,7 @@ Gender Recognition Using Real Time Voice Input or by using .wav file input.Built
 Extract the data file before using it for data preparation.
 [Mozilla's Common Voice](https://www.kaggle.com/mozillaorg/common-voice)
 
-Used [Mel Spectrogram](https://librosa.github.io/librosa/generated/librosa.feature.melspectrogram.html) feature extraction technique to get a vector of a fixed length from each voice sample, the [data](data/) folder contain only the features and not the actual mp3 samples (the dataset is too large, about 13GB).
+Used [Mel Spectrogram](https://librosa.org/doc/main/generated/librosa.feature.melspectrogram.html) feature extraction technique to get a vector of a fixed length from each voice sample, the [data](data.rar) folder contain only the features and not the actual mp3 samples (the dataset is too large, about 13GB).
 
 If you wish to download the dataset and extract the features files (.npy files) on your own, [`preparation.py`](preparation.py) is the responsible script for that, once you unzip it, put `preparation.py` in the root directory of the dataset and run it. 
 
